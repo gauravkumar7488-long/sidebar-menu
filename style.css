@@ -106,3 +106,77 @@
 #check:checked ~ .sidebar_menu .btn_two i{
     opacity: 1;
 }
+/* Your existing CSS */
+
+#check:checked ~ .sidebar_menu .btn_two i{
+    opacity: 1;
+}
+
+@media (max-width: 768px){
+
+    .sidebar_menu{
+        width: 260px;
+        left: -260px;
+    }
+
+    .sidebar_menu .btn_two i{
+        left: 235px;
+    }
+
+    .sidebar_menu .logo a{
+        left: 30px;
+        font-size: 18px;
+    }
+
+    .sidebar_menu .menu a{
+        font-size: 16px;
+    }
+
+    .sidebar_menu .social_media{
+        left: 22%;
+    }
+}
+
+@media (max-width: 480px){
+
+    .sidebar_menu{
+        width: 220px;
+        left: -220px;
+    }
+
+    .sidebar_menu .btn_two i{
+        left: 195px;
+        font-size: 20px;
+    }
+
+    .sidebar_menu .logo a{
+        left: 20px;
+        font-size: 16px;
+    }
+
+    .sidebar_menu .menu li{
+        padding: 12px 15px;
+    }
+
+    .sidebar_menu .menu a{
+        font-size: 15px;
+    }
+
+    .sidebar_menu .menu i{
+        font-size: 16px;
+    }
+
+    .sidebar_menu .social_media{
+        left: 20%;
+        bottom: 30px;
+    }
+
+    .sidebar_menu .social_media i{
+        font-size: 18px;
+    }
+
+    .btn_one{
+        font-size: 18px;
+        left: 10px;
+    }
+}
